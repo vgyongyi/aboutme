@@ -1,0 +1,159 @@
+Background colors for containers 
+
+/*
+.profile-card {
+    background-color: hsla(120, 100%, 50%, .4);
+  opacity:0,2;
+}
+
+.head {
+  background-color: hsla(120, 100%, 50%, .4);
+}
+
+.content {
+  background-color: hsla(120, 100%, 50%, .4);
+}
+
+.profile-image {
+  background-color: hsla(300, 100%, 50%, .4);
+}
+
+.name-headline {
+  background-color: hsla(300, 100%, 50%, .4);
+}
+
+.about {
+  background-color: hsla(300, 100%, 50%, .4);
+}
+
+.links {
+  background-color: hsla(300, 100%, 50%, .4);
+}
+
+*/
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Positioning */
+
+.right {
+  float: right;
+}
+
+.profile-card {
+  width: 700px;
+  max-width: calc(100vw - 10px);
+}
+
+.profile-image{
+  width: 40%; 
+  margin-top:90px;
+ }
+
+.name-headline{
+  width: 60%;
+    
+}
+
+.head{
+  width:90%;  
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://i.imgur.com/s70ffyx.jpg') no-repeat center center fixed;
+  
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+   margin-bottom: 50 px;
+}
+
+.head,.about {
+  margin-bottom: 10%;
+  margin-bottom: 30px;
+}
+
+
+/*
+.profile-image {
+  margin-top: 30px;
+*/
+
+img {
+  width: 140px;
+  height: auto;
+  border-radius: 30%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(80%);
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+   filter: grayscale(30%);
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+h1 {
+ font-family:"Comic Sans MS"; 
+}
+
+/* Contact links */
+
+ol {
+  list-style-type: circle;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+  display: inline;
+}
+
+p {
+  text-align:justify; 
+  margin-top:30 px; 
+
+  line-height:150%;
+}
+
+article {
+  font-family:"Arial";
+ margin-bottom: 40px;
+}
+
+h3{
+  margin-top:40px;
+}
